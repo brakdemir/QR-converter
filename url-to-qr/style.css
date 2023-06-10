@@ -1,0 +1,40 @@
+body {
+  background-color: cornflowerblue;
+  background-size: cover;
+  text-align: center;
+    font-family: Arial, sans-serif;
+  }
+
+#qrplace {
+  background-color: white;
+  display: none;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 30px;
+  width: 300px;
+  height: 300px;
+  margin-top: 20px;
+}
+
+#link {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  margin: 25px;
+  margin-right: 50px;
+  text-decoration: none;
+  color: black;
+}
+  #urlInput {
+    border: none;
+    padding: 10px;
+    border-radius: 30px;
+  }
+
+  #convert{
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: antiquewhite;
+  }
