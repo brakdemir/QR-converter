@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>QR Code URL Extractor</title>
+  <script src="https://cdn.jsdelivr.net/npm/jsqr/dist/jsQR.js"></script>
+  <link rel="stylesheet" type="text/css" href="qr-to-url/style.css">
+</head>
+<body>
+  <h1>QR Code URL Extractor</h1>
+  <a href="index.html" id="link">URL to QR</a>
+
+  <input type="file" id="qrCodeFileInput">
+  <button onclick="extractURL()">Extract URL</button>
+  <div id="result"></div>
+
+  <script src="qr-to-url/script.js"></script>
+</body>
+</html>
