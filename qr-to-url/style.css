@@ -1,0 +1,36 @@
+body {
+  background-color: cornflowerblue;
+  background-size: cover;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    margin-top: 50px;
+  }
+  #link {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    margin: 48px;
+    margin-right: 50px;
+    text-decoration: none;
+    color: black;
+  }
+  
+  input {
+    padding: 10px;
+    margin-top: 20px;
+  }
+
+  button{
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: antiquewhite;
+  }
+  
+  #result {
+    margin-top: 30px;
+  }
